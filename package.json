@@ -21,6 +21,10 @@
     "redux",
     "fetch"
   ],
+  "files": [
+    "lib",
+    "src"
+  ],
   "author": "Daniel Lindenkreuz",
   "license": "MIT",
   "bugs": {
