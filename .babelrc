@@ -1,0 +1,11 @@
+{
+  "presets": [
+    "react",
+    "react-optimize",
+    "es2015-loose",
+    "stage-1"
+  ],
+  "plugins": [
+    "lodash"
+  ]
+}

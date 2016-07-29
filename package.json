@@ -1,0 +1,51 @@
+{
+  "name": "redux-withdata",
+  "version": "0.1.0",
+  "description": "A higher-order React component that manages data fetching with Redux",
+  "main": "lib/withData.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib",
+    "lint": "eslint src",
+    "prepublish": "npm run lint && npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlindenkreuz/redux-withdata.git"
+  },
+  "keywords": [
+    "reactjs",
+    "react",
+    "hoc",
+    "redux",
+    "fetch"
+  ],
+  "author": "Daniel Lindenkreuz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlindenkreuz/redux-withdata/issues"
+  },
+  "homepage": "https://github.com/dlindenkreuz/redux-withdata#readme",
+  "peerDependencies": {
+    "react": "0.14.x || ^15.x",
+    "react-redux": "^4.x"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-lodash": "^3.2.6",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-optimize": "^1.0.1",
+    "babel-preset-stage-1": "^6.5.0",
+    "eslint": "^3.1.1",
+    "eslint-plugin-react": "^5.2.2",
+    "rimraf": "^2.5.4"
+  },
+  "dependencies": {
+    "lodash": "^4.14.1"
+  }
+}
